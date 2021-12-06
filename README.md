@@ -42,7 +42,7 @@ And you should be ready to go to play with code and build upon it!
 
 ### Training
 
-The model is trained on `10 epochs` using Adam as an optimizer with a `learning rate = 0.001` and `batch size = 32`, you can find all the model settings in [settings.py](https://github.com/Khamies/LSTM-Language-Generator/settings.py). Here is the loss curve for the training step:
+The model is trained on `10 epochs` using Adam as an optimizer with a `learning rate = 0.001` and `batch size = 32`, you can find all the model settings in [settings.py](https://github.com/Khamies/LSTM-Language-Generator/blob/main/settings.py). Here is the loss curve for the training step:
 
 - **Negative Likelihood Loss**
 
