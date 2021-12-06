@@ -9,12 +9,10 @@ A Pytorch LSTM Language model trained on Penn Tree Bank Dataset.
 - **[Setup](#Setup)**
 - [**Run the code**](#Run-the-code)
 - **[Training](#Training)**
-- **[Inference](#Inference)**
+- **[Sample Generation](#Sample-Generation)**
 - **[Play with the model](#Play-with-the-model)**
 - **[Connect with me](#Connect-with-me)**
 - **[License](#License)** 
-
-
 
 ### Introduction
 
@@ -44,7 +42,7 @@ And you should be ready to go to play with code and build upon it!
 
 ### Training
 
-The model is trained on 10 epochs using Adam as an optimizer with a learning rate 0.001. Here are the results from training the model:
+The model is trained on `10 epochs` using Adam as an optimizer with a `learning rate = 0.001` and `batch size = 32`, you can find all the model settings in [settings.py](https://github.com/Khamies/LSTM-Language-Generator/settings.py). Here is the loss curve for the training step:
 
 - **Negative Likelihood Loss**
 
@@ -66,19 +64,19 @@ To play with the model, a jupyter notebook has been provided, you can find it [h
 ### Citation
 
 > ```
-> @misc{Khamies2021SequenceVAE,
+> @misc{Khamies2021LSTM-Language-Generator,
 > author = {Khamies, Waleed},
-> title = {PyTorch Implementation of Generating Sentences from a Continuous Space by Bowman et al. 2015},
+> title = {A PyTorch Implementation for an LSTM-based language model},
 > year = {2021},
 > publisher = {GitHub},
 > journal = {GitHub repository},
-> howpublished = {\url{https://github.com/Khamies/Sequence-VAE}},
+> howpublished = {\url{https://github.com/Khamies/LSTM-Language-Generator}},
 > }
 > ```
 
 ### Connect with me :slightly_smiling_face:
 
-For any question or a collaboration, drop me a message [here](mailto:khamiesw@outlook.com?subject=[GitHub]%20Sequence-VAE%20Repo)
+For any question or a collaboration, drop me a message [here](mailto:khamiesw@outlook.com?subject=[GitHub]%20LSTM-Language-Generator%20Repo)
 
 Follow me on [Linkedin](https://www.linkedin.com/in/khamiesw/)!
 
