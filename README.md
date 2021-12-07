@@ -54,12 +54,12 @@ Here are some generated samples from the model:
 
 ```markdown
 he said <pad> is n't expected to be the first quarter of
-the company said <eos> in the u.s and japan
+the company said will be used to repay the company's
 ```
 
 ## Play with the model
 
-To play with the model, a jupyter notebook has been provided, you can find it [here](https://github.com/Khamies/LSTM-Sequence-VAE/blob/main/play_with_model.ipynb)
+To play with the model, a jupyter notebook has been provided, you can find it [here](https://github.com/Khamies/LSTM-Language-Generator/blob/main/Play_with_model.ipynb)
 
 ### Citation
 
