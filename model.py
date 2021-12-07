@@ -87,7 +87,7 @@ class LSTM_Language(torch.nn.Module):
 
     input = torch.Tensor(1, 1).fill_(self.dictionary.get_w2i()[sos]).long().to(self.device)
 
-    hidden = self.model.init_hidden(batch_size)
+    hidden = self.init_hidden(batch_size)
 
     with torch.no_grad():
     
